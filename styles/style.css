@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(#0270C5, #60A6DA);
+}
+
+.panel {
+  border: 1px solid #ccc;
+  width: 600px;
+  margin: 100px auto;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 20px 20px 40px rgba(0,0,0,0.5);
+}
+
+@media (max-width: 650px) {
+  .panel {
+    width: 350px;
+  }
+}
+
+.events {
+  display: flex;
+}
+
+.btn-events {
+  width: 50%;
+  margin: 10px;
+  padding: 10px
+}
+
+.timers {
+  display: flex;
+}
+
+.btn-timer {
+  width: 33%;
+  margin: 10px;
+  padding: 10px
+}
+
+h1 {
+  font-family: 'Racing Sans One', cursive;
+  font-size: 50px;
+}
